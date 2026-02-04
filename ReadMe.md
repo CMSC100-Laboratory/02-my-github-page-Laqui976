@@ -1,5 +1,5 @@
-@Author: Rochelle Laqui BS Computer Science
-Live Website: https://cmsc100-laboratory.github.io/02-my-github-page-Laqui976/
+@Author: Rochelle Laqui BS Computer Science  
+Live Website: https://cmsc100-laboratory.github.io/02-my-github-page-Laqui976/  
 To create a Github page:
 
    1. Create repositories with your html, css and other necessary files.
