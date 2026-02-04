@@ -7,4 +7,6 @@ To create a Github page:
    3. Change the branch to main or the branch where your index.html is placed
    4. You will have your live link at the top
 
-Key Takeaways:
+Key Takeaways:  
+References:
+gdocs: https://docs.google.com/document/d/1sHa0_fd8rpGjqnIX7h68MFSJDiYFojOkVDANGaqxQnk/edit?usp=sharing
