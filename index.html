@@ -1,12 +1,67 @@
 <!DOCTYPE html>
+
 <html>
-<head>
-<title>Sample Web Page</title>
-</head>
-<body>
-<h1>This is a heading</h1>
-<p>This is the first paragraph of text</p>
-<hr/>
-<p>This is the second paragraph of text</p>
-</body>
+   
+    <head >
+        <link rel="stylesheet"  href="stylesheet.css"  /><!--link css file-->
+        </head>
+        <body>
+            <div class ="flex-container"> 
+
+                <div class= "flex-img">
+                     <img  src= "assets/avatar.JPG" alt="Avatar" ><!--add image-->
+                 </div>
+                <div class= "flex-item">
+                   Hi, I'm Rochelle Laqui!
+                   <p id ="about-me">Frontend Developer commited to stay up to date with the latest web development trends and practices
+                    and provide the best web solutions for you.</p>
+                </div>      
+           
+             <!--navigation menu-->
+                <nav class="nav">
+                <a href="#profile">HOME</a>
+                <a href="#skills">SKILLS</a>
+                <a href="#exp">EXPERIENCE</a>
+                <a href="#works">WORKS</a>
+                </nav>
+
+         </div>
+         <div class="proj">
+            <!-- pics of past projects-->
+            <img src="assets/quizme.jpeg" class="project-img">
+            <img src="assets/travel.jpeg" class="project-img">
+            <img src="assets/alt.png" class="project-img">
+            <img src="assets/lobby.png" class="project-img">
+
+
+
+         </div>
+            <div class ="profile">
+                <p >WHO AM I?</p>
+                <p1>
+                    I am a BS Computer Science graduating student from University of Philippines Los Banos applying for a Frontend Software Engineer.
+                    I am eager to contribute my skills and enthusiasms to the dynamic team at Gugil Co.
+                    I am a quick learner, reliable, and responsible. I can accomplish tasks with minimal to no 
+                    supervision. I have experience and project on both academic and collaborative setting. </p1>
+            </div>
+            <div id="skills" class="content">
+                <h2>Skills</h2>
+                <p>Programming: Java, JavaScript, HTML, CSS, C, Python</p>
+                <p>Other: UI/UX Design, Git, Agile Development</p>
+            </div>
+        
+            <div id="exp" class="content">
+                <h2>Experience</h2>
+                <p>Internship at Tech Company XYZ</p>
+                <p>Worked on frontend development and UI design</p>
+            </div>
+        
+            <div id="works" class="content">
+                <h2>Works</h2>
+                <p>Project 1: Web-based task manager</p>
+                <p>Project 2: AI chatbot assistant</p>
+            </div>
+
+    </body>
+    
 </html>
