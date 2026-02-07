@@ -1,7 +1,12 @@
 
 body {
+  display: flex;
   margin: 0;
   padding: 0;
+  background:#E0FBFC;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 img {/*turn image into circular*/
@@ -35,6 +40,16 @@ img {/*turn image into circular*/
    margin-left: 45px;
 
  }
+ .about-me{
+    display:flex;
+    border-radius: 20px;
+    justify-content: flex-start;
+    padding: 40px;
+    width: 500px;
+    background-color: #c2dfe3;
+
+    
+ }
 #about-me{
     font-size: 15px;
     font-weight: bold;
@@ -42,16 +57,9 @@ img {/*turn image into circular*/
     margin-top: 20px;    
     margin-left: 0px;
     margin-right: 60px;
+    
  }
 
- .flex-item1{/*size and position for contacts*/
-   font-size: 18px;
-   font-weight: bold;
-   position: relative;
-   top: 30px;
-   right: 310px;
-
- }
 
 .nav {
   position: fixed;     /* stays at top */
@@ -66,29 +74,11 @@ img {/*turn image into circular*/
   justify-content: center;  
   align-items: center;
   gap: 50px;
+  
 
 }
 
 .nav a {
-  color: black;
-  text-decoration: none;
-  font-size: 18px;
- 
-
-}
-.nav a1 {
-  color: black;
-  text-decoration: none;
-  font-size: 18px;
-}
-.nav a2 {
-  color: black;
-  text-decoration: none;
-  font-size: 18px;
-   
-
-}
-.nav a3 {
   color: black;
   text-decoration: none;
   font-size: 18px;
@@ -103,6 +93,8 @@ img {/*turn image into circular*/
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   
 }
 
@@ -111,4 +103,51 @@ img {/*turn image into circular*/
   height: 200px;      
   border-radius: 12px; 
   object-fit: fill;
+
+}
+.profile-section {
+  width: 100%;
+  height: 500%;
+  background-color: #c2dfe3;
+}
+
+.profile{
+  display: flex;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4vw;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  
+}
+.whoami-section {
+  display: flex;
+  position: relative;
+  padding: 100px 50px;    
+  justify-content: flex-start;
+}
+.whoami-circle {
+  position: absolute;
+
+  top: 15%;                 
+  left: 50%;              
+  transform: translate(-50%, -50%);
+
+  width: clamp(100px, 15vw, 160px);
+  height: clamp(100px, 15vw, 160px);
+
+  border-radius: 50%;
+  background-color: #9db4c0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: clamp(14px, 2vw, 20px);
+  font-weight: bold;
+  text-align: center;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  z-index: 2;
 }
