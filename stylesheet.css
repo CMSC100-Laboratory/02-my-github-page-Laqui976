@@ -151,3 +151,138 @@ img {/*turn image into circular*/
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
   z-index: 2;
 }
+.skills-content{
+  display: flex;
+  position: relative;
+  padding: 100px 50px;    
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  
+}
+.softskills-circle{
+  position: absolute;
+
+  top: 15%;   
+                
+               
+  transform: translate(-50%, -50%);
+
+  width: clamp(100px, 15vw, 160px);
+  height: clamp(100px, 15vw, 160px);
+  border-radius: 50%;
+  background-color: #9db4c0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: clamp(14px, 2vw, 20px);
+  font-weight: bold;
+  text-align: center;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  z-index: 2;
+}
+
+.techskills-circle{
+  position: absolute;
+
+  top: 15%;                 
+  left: 80%;           
+  transform: translate(-50%, -50%);
+
+  width: clamp(100px, 15vw, 160px);
+  height: clamp(100px, 15vw, 160px);
+
+  border-radius: 50%;
+  background-color: #9db4c0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: clamp(14px, 2vw, 20px);
+  font-weight: bold;
+  text-align: center;
+
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+  z-index: 2;
+}
+.softskills-img1, .softskills-img2{
+  display: flex;
+  width: clamp(100px, 20vw, 250px);
+  height: auto;
+  justify-self:center;
+  align-items: center; 
+}
+.softskills-img1{
+
+  margin-left: -200px; 
+  margin-top: -50px;
+}
+.softskills-img2{
+
+  margin-top: -50px;
+  margin-right: -20px;
+
+}
+.softskills-section{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px;    
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -200px;
+  
+}
+.softskills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: clamp(10px, 2vw, 20px);          
+  justify-items: center;                 
+  margin-top: 40px;                    
+  width: 100%;
+  max-width: 600px;                      
+  margin-left: -70px;
+  margin-right:10px;                     
+}
+
+.softskills-grid div {
+  background-color: #c2dfe3;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: clamp(14px, 1.5vw, 18px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.techskills-section{
+    display: flex;
+    flex-direction: row;
+    padding: 40px 40px;    
+    justify-content: center;
+    flex-wrap: wrap;
+  
+}
+
+.techskills-img1, .techskills-img2{
+  display: flex;
+  width: clamp(100px, 20vw, 230px);
+  height: auto;
+  justify-self:center;
+  align-items: center; 
+}
+.techskills-img1{
+
+  margin-left: -220px; 
+  margin-top: -160px;
+}
+.techskills-img2{
+
+  margin-top: -150px;
+  margin-right: -170px;
+
+}

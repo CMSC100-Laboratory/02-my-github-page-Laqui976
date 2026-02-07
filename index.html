@@ -1,75 +1,110 @@
 <!DOCTYPE html>
-
 <html>
-   
-    <head >
-        <link rel="stylesheet"  href="stylesheet.css"  /><!--link css file-->
-        </head>
-        <body>
-            <div class ="flex-container"> 
+  <head>
+    <link rel="stylesheet" href="stylesheet.css" />
+  </head>
 
-                <div class= "flex-img">
-                     <img  src= "assets/avatar.JPG" alt="Avatar" ><!--add image-->
-                 </div>
-                <div class= "flex-item">
-                   Hi, I'm Rochelle Laqui!
-                   <div class="about-me">
-                   <p id ="about-me">Frontend Developer commited to stay up to date with the latest web development trends and practices
-                    and provide the best web solutions for you.</p>
-                </div>      
-           </div>
-             <!--navigation menu-->
-                <nav class="nav">
-                <a href="#flex-item">HOME</a>
-                <a href="#profile-section">PROFILE</a>
-                <a href="#skills">SKILLS</a>
-                <a href="#exp">EXPERIENCE</a>
-                <a href="#works">WORKS</a>
-                </nav>
+  <body>
 
-         </div>
-         <div class="proj">
-            <!-- pics of past projects-->
-           <img src="assets/alt.png" class="project-img"> 
-           <img src="assets/quizme.jpeg" class="project-img"> 
-            <img src="assets/lobby.png" class="project-img">
-            <img src="assets/travel.jpeg" class="project-img">
+    <div class="flex-container">
 
-            <section class="profile-section">
-            <section class="whoami-section">
-                <div class="whoami-circle">WHO AM I?</div>
-                
-                <div class="profile">
-                    <p>
-                   I am a BS Computer Science student at the University of the Philippines Los Baños with experience in frontend development through mobile and game projects. 
-                   I have implemented user interfaces, profile pages, and interactive components, and worked closely with backend features such as authentication and data handling.
-                   I value clean, usable designs and enjoy building interfaces that improve user experience. 
-                   I am currently focused on strengthening my frontend skills while collaborating effectively within a team.
-                    </p>
-                </div>
-           </section>
-    </section>
+      <div class="flex-img">
+        <img src="assets/avatar.JPG" alt="Avatar">
+      </div>
 
-         </div>
+      <!-- ADDED id="flex-item" -->
+      <div class="flex-item" id="flex-item">
+        Hi, I'm Rochelle Laqui!
+        <div class="about-me">
+          <p id="about-me">
+            Frontend Developer commited to stay up to date with the latest web development trends and practices
+            and provide the best web solutions for you.
+          </p>
+        </div>
+      </div>
+
+      <!-- navigation -->
+      <nav class="nav">
+        <a href="#flex-item">HOME</a>
+        <a href="#profile-section">PROFILE</a>
+        <a href="#skills">SKILLS</a>
+        <a href="#exp">EXPERIENCE</a>
+        <a href="#works">WORKS</a>
+      </nav>
+
+    </div>
+
+    <div class="proj">
+      <img src="assets/alt.png" class="project-img">
+      <img src="assets/quizme.jpeg" class="project-img">
+      <img src="assets/lobby.png" class="project-img">
+      <img src="assets/travel.jpeg" class="project-img">
+      <img src="assets/landing.png" class="project-img">
+      <img src="assets/reg.png" class="project-img">
+
+      <!-- ADDED id="profile-section" -->
+      <section class="profile-section" id="profile-section">
+        <section class="whoami-section">
+          <div class="whoami-circle">WHO AM I?</div>
+
+          <div class="profile">
+            <p>
+              I am a BS Computer Science student at the University of the Philippines Los Baños with experience in frontend development through mobile and game projects.
+              I have implemented user interfaces, profile pages, and interactive components, and worked closely with backend features such as authentication and data handling.
+              I value clean, usable designs and enjoy building interfaces that improve user experience.
+              I am currently focused on strengthening my frontend skills while collaborating effectively within a team.
+            </p>
+          </div>
+        </section>
+      </section>
+    </div>
+
+    <section id="skills" class="skills-content">
+    <section class="softskills-section">
+      <img src="assets/icon1.png" class="softskills-img1"> 
+          <div class="softskills-circle">SOFT SKILLS</div>
+            <img src="assets/icon2.png" class="softskills-img2">  
          
-            <div id="skills" class="content">
-                <h2>Skills</h2>
-                <p>Programming: Java, JavaScript, HTML, CSS, C, Python</p>
-                <p>Other: UI/UX Design, Git, Agile Development</p>
-            </div>
-        
-            <div id="exp" class="content">
-                <h2>Experience</h2>
-                <p>Internship at Tech Company XYZ</p>
-                <p>Worked on frontend development and UI design</p>
-            </div>
-        
-            <div id="works" class="content">
-                <h2>Works</h2>
-                <p>Project 1: Web-based task manager</p>
-                <p>Project 2: AI chatbot assistant</p>
-            </div>
+          
+            <div id="softskills" class="softskills-grid">
+                <div>Adaptability</div>
+                <div>Leadership</div>
+                <div>Time Management</div>
+                <div>Collaboration</div>
+                <div>Problem-Solving</div>
+                <div>Communication</div>
 
-    </body>
-    
+                </div>
+</section>
+         
+    <section class="techskills-section">
+      <img src="assets/icon3.png" class="techskills-img1"> 
+          <div class="softskills-circle">TECHNICAL SKILLS</div>
+            <img src="assets/icon4.png" class="techskills-img2">  
+         
+          
+            <div id="techskills" class="techskills-grid">
+                <div>Adaptability</div>
+                <div>Leadership</div>
+                <div>Time Management</div>
+                <div>Collaboration</div>
+                <div>Problem-Solving</div>
+                <div>Communication</div>
+
+                </div>
+</section>
+    </section>
+    <div id="exp" class="content">
+      <h2>Experience</h2>
+      <p>Internship at Tech Company XYZ</p>
+      <p>Worked on frontend development and UI design</p>
+    </div>
+
+    <div id="works" class="content">
+      <h2>Works</h2>
+      <p>Project 1: Web-based task manager</p>
+      <p>Project 2: AI chatbot assistant</p>
+    </div>
+
+  </body>
 </html>
