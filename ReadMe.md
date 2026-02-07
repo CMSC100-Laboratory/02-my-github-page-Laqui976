@@ -10,6 +10,6 @@ To create a Github page:
 Key Takeaways:    
 This Laboratory exercise was able to portray the relationship between CSS and HTML. It showed me how CSS can give life to a simple HTML document.
 Moreover, the exercise was able to stregthen my fundamentals of both HTML and CSS allowing me to explore different layouting commands. The importance of 
-documentation and proper commit messages was also practiced.
+documentation and proper commit messages was also practiced.  
 References:  
 gdocs: https://docs.google.com/document/d/1sHa0_fd8rpGjqnIX7h68MFSJDiYFojOkVDANGaqxQnk/edit?usp=sharing
