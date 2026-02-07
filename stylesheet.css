@@ -127,7 +127,7 @@ img {/*turn image into circular*/
 .whoami-section {
   display: flex;
   position: relative;
-  padding: 100px 50px;    
+  padding-top: 50px;   
   justify-content: flex-start;
 }
 .whoami-circle {
@@ -157,7 +157,7 @@ img {/*turn image into circular*/
 .skills-content{
   display: flex;
   position: relative;
-  padding: 100px 50px;    
+  padding-top: 50px;  
   justify-content: center;
   align-items: center;
   margin-right: -220px;
@@ -361,4 +361,62 @@ img {/*turn image into circular*/
   margin: 0;
 }
 
+.contact-section {
+  width: 100%;
+  background-color: #9db4c0;
+  padding: 80px 20px;
+  margin-top: 100px;
+  text-align: center;
+  align-items:center ;
+}
+
+.contact-title {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.contact-grid {
+ 
+  display: flex;
+  justify-content: center;   
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;        
+
+  max-width: 900px;
+  margin: 0 auto;
+
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+
+  background-color: #c2dfe3;
+  padding: 16px 20px;
+  border-radius: 14px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  box-shadow: 0 6px 15px rgba(0,0,0,0.12);
+}
+
+.contact-item img {
+  width: 28px;
+  height: 28px;
+  border-radius: 0;
+}
+
+.contact-item a {
+  color: black;
+  text-decoration: none;
+}
+
+.contact-item a:hover {
+  text-decoration: underline;
+}
 
