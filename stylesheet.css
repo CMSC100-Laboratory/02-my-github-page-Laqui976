@@ -157,7 +157,7 @@ img {/*turn image into circular*/
   padding: 100px 50px;    
   justify-content: center;
   align-items: center;
-  gap: 100px;
+  margin-right: -220px;
   flex-wrap: wrap;
   
 }
@@ -278,11 +278,33 @@ img {/*turn image into circular*/
 .techskills-img1{
 
   margin-left: -220px; 
-  margin-top: -160px;
+  margin-top: -50px;
 }
 .techskills-img2{
 
-  margin-top: -150px;
-  margin-right: -170px;
+  margin-top: -50px;
+  margin-right: -70px;
 
+}
+
+.techskills-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns */
+  gap: clamp(10px, 2vw, 20px);          
+  justify-items: center;                 
+  margin-top: 40px;                    
+  width: 100%;
+  max-width: 600px;                      
+  margin-left: -70px;
+  margin-right:10px;                     
+}
+
+.techskills-grid div {
+  background-color: #c2dfe3;
+  border-radius: 12px;
+  padding: 12px 20px;
+  font-weight: bold;
+  text-align: center;
+  font-size: clamp(14px, 1.5vw, 18px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
